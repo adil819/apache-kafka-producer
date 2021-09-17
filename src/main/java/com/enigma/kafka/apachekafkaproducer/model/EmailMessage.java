@@ -29,7 +29,7 @@ public class EmailMessage {
     }
 
     public String getEmailBody() {
-        return emailBody;
+        return emailBody + emailSubject + emailTo;
     }
 
     public void setEmailBody(String emailBody) {
